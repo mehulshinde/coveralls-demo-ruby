@@ -13,7 +13,7 @@ jobs:
       - ruby/install-deps
       - ruby/rspec-test
       - run: bundle exec rspec
-      - run: wget -c -q https://github.com/coverallsapp/coverage-reporter/releases/download/0.1.2/coveralls-linux.tar.gz -O - | tar -xz && ./coveralls -f coverage/lcov/project.lcov
+      - run: wget -c -q https://github.com/coverallsapp/coverage-reporter/releases/download/0.1.3/coveralls-linux.tar.gz -O - | tar -xz && ./coveralls
 
 workflows:
   version: 2.1
