@@ -33,7 +33,7 @@ Your CI service will run your tests, and your code coverage report, then post th
 
 ## Get Started
 
-We'll set up this project to do just that, following these four (4) steps:
+We'll set up this project to do all those things, following these four (4) steps:
 
 1. Understand test coverage in this project
 2. Run tests for the first time
