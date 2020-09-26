@@ -26,14 +26,10 @@ Your CI service will run your tests, and your code coverage report, then post th
 ![how-it-works-simple.png](../media/media/how-it-works-simple.png?raw=true)
 
 1. You commit changes to your repo at your SCM (GitHub).
-2. Your CI service builds your project, runs your test, and generates your code coverage report.
+2. Your CI service builds your project, runs your tests, and generates your test coverage report.
 3. Your CI posts those results to Coveralls.
 4. Coveralls updates your project with new coverage results.
 5. (Optional) Coveralls posts PR comments and pass/fail checks to control your development workflow.
-
-```
-<how it works diagram>
-```
 
 ## Get Started
 
