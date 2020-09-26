@@ -4,7 +4,7 @@
 
 * [Ruby](https://www.ruby-lang.org/) — *Language*
 * [Rspec](https://rspec.info/) — *Testing Library*
-* [Simplecov](https://github.com/colszowka/simplecov) — *Code Coverage Library*
+* [Simplecov](https://github.com/colszowka/simplecov) — *Test Coverage Library*
 
 ### How to run it:
 
@@ -19,15 +19,25 @@ bundle exec rspec
 
 ## How It Works
 
-Before your project gets to [Coveralls](http://coveralls.io), it must already be using a code coverage library to generate coverage results ([Simplecov](https://github.com/colszowka/simplecov), in this project). Your CI service will run your tests, and your code coverage report, then post those results to [Coveralls](http://coveralls.io).
+Before your project gets to [Coveralls](http://coveralls.io), it must already be using a code coverage library to generate coverage results ([Simplecov](https://github.com/colszowka/simplecov), in this project).
+
+Your CI service will run your tests, and your code coverage report, then post those results to [Coveralls](http://coveralls.io).
+
+![how-it-works-simple.png](../media/media/how-it-works-simple.png?raw=true)
+
+1. You commit changes to your repo at your SCM (GitHub).
+2. Your CI service builds your project, runs your test, and generates your code coverage report.
+3. Your CI posts those results to Coveralls.
+4. Coveralls updates your project with new coverage results.
+5. (Optional) Coveralls posts PR comments and pass/fail checks to control your development workflow.
 
 ```
 <how it works diagram>
 ```
 
-We'll set up this project to do exactly that, with these four (4) steps:
-
 ## Get Started
+
+We'll set up this project to do the above, following these four (4) steps:
 
 1. Understand test coverage in this project
 2. Run tests for the first time
@@ -116,7 +126,7 @@ You'll notice test results on the screen, which should look like this:
 <test results>
 ```
 
-In additional to the test results themselves, we have the added benefit of test _coverage_ results, from using our test coverage library, [Simplecov](https://github.com/colszowka/simplecov). 
+In additional to the test results themselves, we have the added benefit of test _coverage_ results, from using our test coverage library, [Simplecov](https://github.com/colszowka/simplecov).
 
 Every time we run our test suite, [Simplecov](https://github.com/colszowka/simplecov), in the background, generates HTML-based code coverage results, which you can see by opening the newly created file at `/coverage/index.html` in your browser, or by issuing this command in your terminal:
 
@@ -140,10 +150,10 @@ In our case, 4/5 lines are covered, indicating 80% coverage.
 
 <details>
   <summary>Why isn't coverage 50%?</summary>
-  
+
 ---
 
-One might expect the coverage results here to be 50%, given that `ClassOne` has two (2) methods (`covered` and `uncovered`) and we're only testing one of them. However, that's not how it works. Instead, Simplecov counts *relevant lines* in each file and compares the number of covered lines to uncovered lines to determine the file's coverage percentage. 
+One might expect the coverage results here to be 50%, given that `ClassOne` has two (2) methods (`covered` and `uncovered`) and we're only testing one of them. However, that's not how it works. Instead, Simplecov counts *relevant lines* in each file and compares the number of covered lines to uncovered lines to determine the file's coverage percentage.
 </details>
 
 </details>
@@ -208,7 +218,9 @@ Five (5) out of five (5) relevant lines are now covered, resulting in 100% cover
 
 Now that you understand how test coverage works in this project, you'll soon be able to verify the same results through [Coveralls](http://coveralls.io).
 
-### Which CI Service will you use? 
+But first we’ll need to set up the CI pipeline.
+
+### Which CI Service will you use?
 
 Since your CI Service will be sending code coverage results to [Coveralls](http://coveralls.io), you'll need to choose a CI service and add this repo to it.<sup>*</sup>
 
@@ -223,7 +235,7 @@ Follow the branch for your CI service and we'll pick up the conversation there:
 
 ---
 
-<small>Technically speaking, there are other ways to send your test coverage results to <a href="http://coveralls.io">Coveralls</a> without a CI Service; namely, through their API. That's not the subject of this README, so to find out more see <a href="https://docs.coveralls.io/api-introduction">Coveralls API Docs</a>. You can find out about creating new repos <a href="https://coveralls.io/api/docs">here</a>, and about posting coverage results to those repos <a href="https://docs.coveralls.io/api-reference">here</a>.</small>
+<small>Technically speaking, there are other ways to send your test coverage results to <a href="http://coveralls.io">Coveralls</a> without a CI Service; namely, through the API. That's not the subject of this README, so to find out more see <a href="https://docs.coveralls.io/api-introduction">Coveralls API Docs</a>. You can find out about creating new repos <a href="https://coveralls.io/api/docs">here</a>, and about posting coverage results to those repos <a href="https://docs.coveralls.io/api-reference">here</a>.</small>
 </details>
 
 </details>
