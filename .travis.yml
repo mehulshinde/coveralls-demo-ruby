@@ -4,6 +4,7 @@ rvm:
 
 script:
   - bundle exec rspec
+  - wget -cq https://coveralls.io/coveralls-linux.tar.gz -O - | tar -xz && ./coveralls
 
 notifications:
   email: false
