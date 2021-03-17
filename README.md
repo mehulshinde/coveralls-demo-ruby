@@ -29,4 +29,4 @@ If you've gotten this far, we can assume:
 
 This project is configured to send test coverage results to [Coveralls](https://coveralls.io/) through [CircleCI](https://circleci.com/).<sup>*</sup>
 
-For a tutorial on setting up this project, see [Adding test coverage to our CI pipeline](https://circleci.com/blog/adding-test-coverage-to-your-ci-pipeline/) at CircleCI.
+For a tutorial on setting up this project, see [Adding test coverage to your CI pipeline](https://circleci.com/blog/adding-test-coverage-to-your-ci-pipeline/) at CircleCI.
