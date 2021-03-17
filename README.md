@@ -22,7 +22,7 @@ If you've gotten this far, we can assume:
   <dd>If not, start back at the <a href="https://github.com/coverallsapp/coveralls-demo-ruby">master README</a>.</dd>
 
   <dt>2. You've chosen <a href="https://circleci.com/">CircleCI</a> as your CI Service.</dt>
-  <dd>If not, head back to the <a href="https://github.com/coverallsapp/coveralls-demo-ruby">master README</a> and <a href="https://github.com/coverallsapp/coveralls-demo-ruby#which-ci-service-will-you-use">choose a different CI / branch</a>.</dd>
+  <dd>If not, head back to the <a href="https://github.com/coverallsapp/coveralls-demo-ruby">master README</a> and <a href="https://github.com/coverallsapp/coveralls-demo-ruby#4-configure-this-project-to-use-coveralls">choose a different CI / branch</a>.</dd>
 </dl>
 
 # Configure your project for Coveralls & CircleCI
