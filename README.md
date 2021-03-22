@@ -27,6 +27,4 @@ If you've gotten this far, we can assume:
 
 # Configure your project for Coveralls & CircleCI
 
-This project is configured to send test coverage results to [Coveralls](https://coveralls.io/) through [CircleCI](https://circleci.com/) using the [Coveralls Universal Reporter](https://github.com/coverallsapp/coverage-reporter).
-
-For a tutorial on setting up this project, see [Adding test coverage to your CI pipeline](https://circleci.com/blog/adding-test-coverage-to-your-ci-pipeline/) at CircleCI.
+This project is configured to send test coverage results to [Coveralls](https://coveralls.io/) through [CircleCI](https://circleci.com/) using the [Coveralls Universal Reporter](https://github.com/coverallsapp/coverage-reporter). It does not use the [Coveralls Orb](https://circleci.com/developer/orbs/orb/coveralls/coveralls).
