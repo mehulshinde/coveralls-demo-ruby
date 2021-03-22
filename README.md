@@ -1,4 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/github/afinetooth/coveralls-demo-ruby/badge.svg?branch=travis)](https://coveralls.io/github/afinetooth/coveralls-demo-ruby?branch=travis)
+[![Coverage Status](https://coveralls.io/repos/github/coverallsapp/coveralls-demo-ruby/badge.svg?branch=travis)](https://coveralls.io/github/coverallsapp/coveralls-demo-ruby?branch=travis)
 
 # coveralls-ruby-demo for Travis CI
 
@@ -18,11 +18,11 @@ And these services:
 If you've gotten this far, we can assume:
 
 <dl>
-  <dt>1. You understand <a href="https://github.com/afinetooth/coveralls-demo-ruby#1-understand-test-coverage-in-this-project">how test coverage works in this project</a>.</dt>
-  <dd>If not, start back at the <a href="https://github.com/afinetooth/coveralls-demo-ruby">master README</a>.</dd>
+  <dt>1. You understand <a href="https://github.com/coverallsapp/coveralls-demo-ruby#1-understand-test-coverage-in-this-project">how test coverage works in this project</a>.</dt>
+  <dd>If not, start back at the <a href="https://github.com/coverallsapp/coveralls-demo-ruby">master README</a>.</dd>
 
   <dt>2. You've chosen <a href="https://travis-ci.org/">Travis CI</a> as your CI Service.</dt>
-  <dd>If not, head back to the <a href="https://github.com/afinetooth/coveralls-demo-ruby">master README</a> and <a href="https://github.com/afinetooth/coveralls-demo-ruby#which-ci-service-will-you-use">choose a different CI / branch</a>.</dd>
+  <dd>If not, head back to the <a href="https://github.com/coverallsapp/coveralls-demo-ruby">master README</a> and <a href="https://github.com/coverallsapp/coveralls-demo-ruby#which-ci-service-will-you-use">choose a different CI / branch</a>.</dd>
 </dl>
 
 # Configure your project for Coveralls & Travis CI
@@ -36,7 +36,7 @@ This project is configured to send test coverage results to [Coveralls](https://
 
 Notice the Coveralls badge at the top of the page:
 
-[![Coverage Status](https://coveralls.io/repos/github/afinetooth/coveralls-demo-ruby/badge.svg?branch=travis)](https://coveralls.io/github/afinetooth/coveralls-demo-ruby?branch=travis)
+[![Coverage Status](https://coveralls.io/repos/github/coverallsapp/coveralls-demo-ruby/badge.svg?branch=travis)](https://coveralls.io/github/coverallsapp/coveralls-demo-ruby?branch=travis)
 
 That tells us we're configured correctly and successfully receiving coverage reports back from [Coveralls](https://coveralls.io/).
 
@@ -48,7 +48,7 @@ This guide will walk you through the configuration process.
 
 ## How to use this guide
 
-Fork the [master branch of this project](https://github.com/afinetooth/coveralls-demo-ruby/tree/master) and make your changes to *your fork*.<sup>*</sup>
+Fork the [master branch of this project](https://github.com/coverallsapp/coveralls-demo-ruby/tree/master) and make your changes to *your fork*.<sup>*</sup>
 
 <details>
    <summary>* <em>How do I do that?</em></summary>
@@ -156,7 +156,7 @@ After forking the project, keep this window open and refer back to the code in t
 
 ---
 
-*If you haven't done so already, [fork this project](https://github.com/afinetooth/coveralls-demo-ruby/blob/travis/README.md#how-to-use-this-guide) and clone it down to your local machine so you're working with a local copy that belongs to you.*
+*If you haven't done so already, [fork this project](https://github.com/coverallsapp/coveralls-demo-ruby/blob/travis/README.md#how-to-use-this-guide) and clone it down to your local machine so you're working with a local copy that belongs to you.*
 
 *The rest of these steps apply to* <strong>your *project, not this one</strong>.*
 
@@ -415,7 +415,7 @@ git push -u origin <my-new-branch>
 To prove that to yourself, just visit [Travis](https://travis-ci.org/) to see your first build.
 
 For us, that meant going here:<br />
-[https://travis-ci.org/github/afinetooth/coveralls-demo-ruby](https://travis-ci.org/github/afinetooth/coveralls-demo-ruby)
+[https://travis-ci.org/github/coverallsapp/coveralls-demo-ruby](https://travis-ci.org/github/coverallsapp/coveralls-demo-ruby)
 
 Your URL will be different, but should follow this format:
 
@@ -441,7 +441,7 @@ ClassOne
 Finished in 0.00176 seconds (files took 0.13071 seconds to load)
 1 example, 0 failures
 
-Coverage report generated for RSpec to /home/travis/build/afinetooth/coveralls-demo-ruby/coverage. 4 / 5 LOC (80.0%) covered.
+Coverage report generated for RSpec to /home/travis/build/coverallsapp/coveralls-demo-ruby/coverage. 4 / 5 LOC (80.0%) covered.
 The command "bundle exec rspec" exited with 0.
 ```
 
@@ -641,9 +641,9 @@ __Your repo is badged!__
 
 ---
 
-Since you understand [how test coverage works in this project](https://github.com/afinetooth/coveralls-demo-ruby#1-understand-test-coverage-in-this-project), let's verify those same results through the [Coveralls](https://coveralls.io/) service.
+Since you understand [how test coverage works in this project](https://github.com/coverallsapp/coveralls-demo-ruby#1-understand-test-coverage-in-this-project), let's verify those same results through the [Coveralls](https://coveralls.io/) service.
 
-If you've already [configured your project to use Coveralls & Travis CI](https://github.com/afinetooth/coveralls-demo-ruby/blob/travis/README.md#config-steps), then [Travis CI](https://travis-ci.org/) has already pushed your first build to [Coveralls](https://coveralls.io/), and you've noted that coverage stands at 80%:
+If you've already [configured your project to use Coveralls & Travis CI](https://github.com/coverallsapp/coveralls-demo-ruby/blob/travis/README.md#config-steps), then [Travis CI](https://travis-ci.org/) has already pushed your first build to [Coveralls](https://coveralls.io/), and you've noted that coverage stands at 80%:
 
 ![coveralls-first-build-80-percent.png](../media/media/coveralls-first-build-80-percent.png)
 
