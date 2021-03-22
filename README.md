@@ -27,4 +27,4 @@ If you've gotten this far, we can assume:
 
 # Configure your project for Coveralls & Travis CI
 
-This project is configured to send test coverage results to [Coveralls](https://coveralls.io/) from [Travis CI](https://travis-ci.org/) using the [Coveralls Universal Coverage Reporter](https://github.com/coverallsapp/coverage-reporter). It does not use the [coveralls-ruby](https://github.com/lemurheavy/coveralls-ruby) gem.
+This project is configured to send test coverage results to [Coveralls](https://coveralls.io/) from [Travis CI](https://travis-ci.org/) ([ORG](https://travis-ci.org/)) using the [Coveralls Universal Coverage Reporter](https://github.com/coverallsapp/coverage-reporter). It does not use the [coveralls-ruby](https://github.com/lemurheavy/coveralls-ruby) gem.
