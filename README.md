@@ -13,6 +13,10 @@ And these services:
 * [Travis CI](http:://travis-ci.org) — *CI Service*
 * [Coveralls](https://coveralls.io/) — *Test Coverage Service*
 
+# Configure your project for Coveralls & Travis CI
+
+This project is configured to send test coverage results to [Coveralls](https://coveralls.io/) from [Travis CI](https://travis-ci.org/) ([ORG](https://travis-ci.org/)) using the [Coveralls Universal Coverage Reporter](https://github.com/coverallsapp/coverage-reporter). It does not use the [coveralls-ruby](https://github.com/lemurheavy/coveralls-ruby) gem.
+
 # Welcome
 
 If you've gotten this far, we can assume:
@@ -24,7 +28,3 @@ If you've gotten this far, we can assume:
   <dt>2. You've chosen <a href="https://travis-ci.org/">Travis CI</a> as your CI Service.</dt>
   <dd>If not, head back to the <a href="https://github.com/coverallsapp/coveralls-demo-ruby">master README</a> and <a href="https://github.com/coverallsapp/coveralls-demo-ruby#which-ci-service-will-you-use">choose a different CI / branch</a>.</dd>
 </dl>
-
-# Configure your project for Coveralls & Travis CI
-
-This project is configured to send test coverage results to [Coveralls](https://coveralls.io/) from [Travis CI](https://travis-ci.org/) ([ORG](https://travis-ci.org/)) using the [Coveralls Universal Coverage Reporter](https://github.com/coverallsapp/coverage-reporter). It does not use the [coveralls-ruby](https://github.com/lemurheavy/coveralls-ruby) gem.
