@@ -27,7 +27,7 @@ If you've gotten this far, we can assume:
 
 # Configure your project for Coveralls & Travis CI
 
-This project is configured to send test coverage results to [Coveralls](https://coveralls.io/) through [Travis CI](https://travis-ci.org/).<sup>*</sup>
+This project is configured to send test coverage results to [Coveralls](https://coveralls.io/) from [Travis CI](https://travis-ci.org/)<sup>*</sup> using the [coveralls-ruby](https://github.com/lemurheavy/coveralls-ruby) gem.
 
 <details>
    <summary>* <em>How do we know it's working?</em></summary>
