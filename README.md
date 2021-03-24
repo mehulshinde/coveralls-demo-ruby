@@ -119,7 +119,14 @@ bundle exec rspec
 You'll notice test results on the screen, which should look like this:
 
 ```ruby
-<test results>
+ClassOne
+  covered
+    returns 'covered'
+
+Finished in 0.00198 seconds (files took 0.16243 seconds to load)
+1 example, 0 failures
+
+Coverage report generated for RSpec to /Users/jameskessler/Workspace/2020/coveralls/coverallsapp/coveralls-demo-ruby/coverage. 4 / 5 LOC (80.0%) covered.
 ```
 
 In additional to the test results themselves, we have the added benefit of test _coverage_ results, from using our test coverage library, [Simplecov](https://github.com/colszowka/simplecov).
