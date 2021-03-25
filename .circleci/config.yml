@@ -24,3 +24,4 @@ workflows:
           branches:
             only:
               - circle-ci
+              - circle-universal
