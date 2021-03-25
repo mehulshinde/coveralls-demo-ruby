@@ -231,6 +231,7 @@ Follow the branch for your CI service and we'll pick up the conversation there:
 
 1. [Travis CI](https://github.com/coverallsapp/coveralls-demo-ruby/tree/travis)
 2. [Circle CI](https://github.com/coverallsapp/coveralls-demo-ruby/tree/circle-ci)
-3. ...
+3. [Github Actions](https://github.com/coverallsapp/coveralls-demo-ruby/tree/github-actions)
+4. ...
 
 </details>
