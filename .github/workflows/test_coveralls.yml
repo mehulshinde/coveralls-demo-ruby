@@ -1,3 +1,10 @@
+# This example integration uses the coveralls-ruby gem to integrate with Coveralls,
+# without using the Coveralls Github Action.
+# For an example using the Coveralls Github Action,
+# which does not require the coveralls-ruby gem,
+# see this version:
+# https://github.com/coverallsapp/coveralls-demo-ruby/blob/github-actions/.github/workflows/test_coveralls.yml
+
 name: Test Coveralls
 on:
   push:
@@ -23,9 +30,3 @@ jobs:
 
     - name: Run tests
       run: bundle exec rspec
-
-    - name: Coveralls
-      uses: coverallsapp/github-action@master
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        path-to-lcov: ./coverage/lcov/coveralls-demo-ruby.lcov
