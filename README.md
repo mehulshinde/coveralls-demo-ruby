@@ -25,4 +25,6 @@ If you've gotten this far, we can assume:
 
 # Configure your project for Coveralls & Github Actions
 
-This project is configured to send test coverage results to [Coveralls](https://coveralls.io/) from [Github](https://github.com/) using the [Coveralls Github Action](https://github.com/marketplace/actions/coveralls-github-action).
+This project is configured to send test coverage results to [Coveralls](https://coveralls.io/) from [Github](https://github.com/) using the [Coveralls Github Action](https://github.com/marketplace/actions/coveralls-github-action). It does not use the [coveralls-ruby](https://github.com/lemurheavy/coveralls-ruby) gem.
+
+See the [github-vanilla](https://github.com/coverallsapp/coveralls-demo-ruby/tree/github-vanilla) branch for an example using just the [coveralls-ruby](https://github.com/lemurheavy/coveralls-ruby) gem, without the [Coveralls Github Action](https://github.com/marketplace/actions/coveralls-github-action).
