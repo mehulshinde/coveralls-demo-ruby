@@ -5,7 +5,7 @@
 # see this version:
 # https://github.com/coverallsapp/coveralls-demo-ruby/blob/github-actions/.github/workflows/test_coveralls.yml
 
-name: Test Coveralls
+name: Test Coveralls (Github Vanilla)
 on:
   push:
     branches: [github-actions]
