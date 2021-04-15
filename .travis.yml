@@ -2,6 +2,13 @@ language: ruby
 rvm:
 - 2.6.3
 
+branches:
+  only:
+  - travis
+  - travis-universal
+  except:
+  - master
+
 script:
   - bundle exec rspec
   - wget -cq https://coveralls.io/coveralls-linux.tar.gz -O - | tar -xz && ./coveralls
