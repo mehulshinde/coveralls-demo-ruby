@@ -5,6 +5,7 @@ rvm:
 branches:
   only:
   - travis
+  - travis-universal
   except:
   - master
 
