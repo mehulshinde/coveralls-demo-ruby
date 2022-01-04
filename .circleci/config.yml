@@ -11,6 +11,8 @@ jobs:
       - checkout
       - ruby/install-deps
       - ruby/rspec-test
+      - store_artifacts:
+          path: coverage
 
 workflows:
   build_and_test:
